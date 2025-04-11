@@ -3,6 +3,7 @@ export default async function(eleventyConfig) {
 	eleventyConfig.setOutputDirectory("./public");
 
 	eleventyConfig.addPassthroughCopy("./src/assets");
+	eleventyConfig.addPassthroughCopy("./src/admin/config.yml");
 
 	eleventyConfig.setIncludesDirectory("../template");
 	
