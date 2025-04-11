@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  line-height: 1.5; /* Sets the line height to 1.5 times the normal */
+}
+
+.tight-lines {
+  line-height: 1.2; /* Sets tighter line spacing */
+}
+
+.loose-lines {
+  line-height: 2.0; /* Sets looser line spacing */
+}
+
+p.internal {
+	line-height: 1.6;
+}
+</style>
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+
+<p>This is a paragraph with the default line height.</p>
+
+<p class="tight-lines">This paragraph has tighter line spacing.</p>
+
+<p class="loose-lines">This paragraph has looser line spacing.</p>
+
+<p style="line-height: 1.8;">This paragraph has inline line spacing.</p>
+
+<p class="internal">This paragraph's line spacing is controlled by the internal stylesheet.</p>
+
+<p class="external">This paragraph's line spacing is controlled by the external stylesheet.</p>
+</body>
+</html>
