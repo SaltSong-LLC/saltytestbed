@@ -20,5 +20,4 @@ collections:
       - {label: "Author", name: "author", type: "string"}
       - {label: "Featured", name: "featured", type: "boolean"}
       - {label: "Published", name: "published", type: "boolean"}
-      - {label: "Featured", name: "featured", type: "boolean"}
 
